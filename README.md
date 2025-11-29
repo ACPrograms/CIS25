@@ -1,10 +1,11 @@
-# Week 5
+# Week 6
 
-## Description
-This week's assignment covers two main C++ concepts:
-1. **Module 6 (Strings and Classes):** Created an `Item` class that uses `fstream` to save inventory data to a text file and read it back.
-2. **Module 11 (Advanced Classes):** Created a `Product` class demonstrating the lifecycle of an object using Constructors for initialization and Destructors for cleanup.
+## Module 7: Pointers and Memory
+This week's assignment focuses on dynamic memory allocation and binary search algorithms in C++.
 
-## Files
-- `inventory_item.cpp`: Handles file I/O for inventory items.
-- `product_lifecycle.cpp`: Demonstrates constructors and destructors.
+### dynamic_inventory.cpp
+This program demonstrates the following concepts:
+1. **Structs:** Defines a custom `Item` data structure holding an ID and a Name.
+2. **Dynamic Memory:** Uses `new Item[100]` to allocate memory on the heap for an array at runtime, rather than compile time.
+3. **Binary Search:** Implements a binary search algorithm to efficiently locate an item by its ID within the sorted array.
+4. **Memory Management:** Demonstrates proper cleanup using `delete[]` to prevent memory leaks.

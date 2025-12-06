@@ -1,10 +1,13 @@
-# Week 5
+# Week 7
 
-## Description
-This week's assignment covers two main C++ concepts:
-1. **Module 6 (Strings and Classes):** Created an `Item` class that uses `fstream` to save inventory data to a text file and read it back.
-2. **Module 11 (Advanced Classes):** Created a `Product` class demonstrating the lifecycle of an object using Constructors for initialization and Destructors for cleanup.
+## Module 4: Debugging and Logic
+This week's assignment focuses on identifying and fixing syntax, runtime, and logical errors in C++.
 
-## Files
-- `inventory_item.cpp`: Handles file I/O for inventory items.
-- `product_lifecycle.cpp`: Demonstrates constructors and destructors.
+### Files Included:
+1. **largest_number.cpp**: 
+   - **Task:** Debug code to find the highest of three inputs.
+   - **Fixes:** Corrected variable declarations and input syntax. Implemented **nested if-statements** to logically determine the largest number.
+   
+2. **simple_menu.cpp**:
+   - **Task:** Build a simple menu using `if` statements.
+   - **Functionality:** Accepts a user's choice and displays a corresponding message or an invalid option warning.
